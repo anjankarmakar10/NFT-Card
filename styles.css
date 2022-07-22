@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: #0d1a2d;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+p {
+  margin: 0;
+  margin: 15px 0;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nft-card {
+  padding: 20px;
+  max-width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+}
+.nft-img {
+  border-radius: 5px;
+  max-width: 100%;
+  max-height: 80%;
+  object-fit: cover;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+.profile-img {
+  margin-right: 10px;
+  max-width: 12%;
+  max-height: 12%;
+  border-radius: 5rem;
+  border: solid 0.1px white;
+}
+.nft-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-price,
+.right-price {
+  display: flex;
+}
+p {
+  color: hsl(0, 0%, 100%);
+}
+.sub-title,
+.text {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  line-height: 24px;
+}
+.price-image {
+  margin-right: 5px;
+}
+.price-box {
+  display: flex;
+  align-items: center;
+}
+.name-profile {
+  font-size: 18px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 600;
+}
+hr {
+  color: hsl(215, 51%, 70%);
+  border: 0.1px solid;
+}
