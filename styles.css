@@ -5,6 +5,7 @@
 }
 body {
   margin: 0;
+  height: 100vh;
   background-color: #0d1a2d;
   display: flex;
   justify-content: center;
@@ -19,7 +20,6 @@ p {
 }
 
 .nft-card {
-  margin-top: 20%;
   padding: 20px;
   max-width: 300px;
   background-color: hsl(216, 50%, 16%);
@@ -79,14 +79,4 @@ p {
 hr {
   color: hsl(215, 51%, 70%);
   border: 0.1px solid;
-}
-
-@media (max-width: 550px) {
-  .nft-card {
-    margin-top: 50%;
-    padding: 20px;
-    max-width: 300px;
-    background-color: hsl(216, 50%, 16%);
-    border-radius: 20px;
-  }
 }
